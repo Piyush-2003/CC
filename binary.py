@@ -24,6 +24,8 @@ def binary_search(arr, target):
 arr = [2, 3, 4, 10, 40]
 target = 10
 result = binary_search(arr, target)
+print(arr)
+print("Number to be Searched is:",target)
 
 if result != -1:
     print("Element is present at index", result)
